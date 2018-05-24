@@ -8,6 +8,12 @@ using System.Xml.Serialization;
 
 namespace GlazingArea
 {
+
+
+    /*
+     * 
+     * asdfasasdfldas;lgfk;asldfk';aslk
+     * /
     public class JPXMlTool
     {
         public string LayerName { get; set; }
