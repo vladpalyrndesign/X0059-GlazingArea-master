@@ -8,6 +8,11 @@ using System.Xml.Serialization;
 
 namespace GlazingArea
 {
+
+    /*
+     * 
+     * 
+     * */
     //TODO:VLAD CHANGED 20170517 DELETE LATER
     public class qrndsgnXmlTool1
     {
