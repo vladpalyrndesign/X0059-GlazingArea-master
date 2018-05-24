@@ -53,15 +53,27 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="VladGeomTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VladGeomTools.dll</HintPath>
+    </Reference>
+    <Reference Include="VladMathTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\VladMathTools.dll</HintPath>
+    </Reference>
+    <Reference Include="WinGenIII, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WinGenIII.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands.cs" />
     <Compile Include="DoorUtils.cs" />
-    <Compile Include="Forms\Form1.cs">
+    <Compile Include="Forms\frmGlazingSpatialCalc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Forms\frmGlazingSpatialCalc.Designer.cs">
+      <DependentUpon>frmGlazingSpatialCalc.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\glazingForm.cs">
       <SubType>Form</SubType>
@@ -82,10 +94,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="utils\acPlines\CCWHub.cs" />
+    <Compile Include="utils\acSSet.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Forms\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\frmGlazingSpatialCalc.resx">
+      <DependentUpon>frmGlazingSpatialCalc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\glazingForm.resx">
       <DependentUpon>glazingForm.cs</DependentUpon>

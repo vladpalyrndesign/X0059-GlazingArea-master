@@ -8,18 +8,16 @@ using System.Xml.Serialization;
 
 namespace GlazingArea
 {
-
-
-    /*
-     * 
-     * asdfasasdfldas;lgfk;asldfk';aslk
-     * /
-    public class JPXMlTool
+    //TODO:VLAD CHANGED 20170517 DELETE LATER
+    public class qrndsgnXmlTool1
     {
         public string LayerName { get; set; }
     }
     [Serializable]
-    public class JPXMLTools : List<JPXMlTool>
+
+    //TODO:VLAD CHANGED 20170517
+    //public class JPXMLTools : List<qrndsgnXmlTool>
+    public class qrndsgnXmlTool : List<string>
     {
         public void WtitetoXml(string FileName)
         {
@@ -31,12 +29,12 @@ namespace GlazingArea
             }
         }
 
-        public static JPXMLTools ReadXml(string path)
+        public static qrndsgnXmlTool ReadXml(string path)
         {
-            XmlSerializer reader = new XmlSerializer(typeof(JPXMLTools));
+            XmlSerializer reader = new XmlSerializer(typeof(qrndsgnXmlTool));
             using (FileStream input = File.OpenRead(path))
             {
-                return reader.Deserialize(input) as JPXMLTools;
+                return reader.Deserialize(input) as qrndsgnXmlTool;
             }
         }
 

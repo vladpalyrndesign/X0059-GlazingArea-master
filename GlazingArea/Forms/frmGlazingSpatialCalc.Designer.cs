@@ -38,34 +38,33 @@
             this.lblRearUnit = new System.Windows.Forms.Label();
             this.lblRear = new System.Windows.Forms.Label();
             this.lblLeftUnit = new System.Windows.Forms.Label();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnRightSelect = new System.Windows.Forms.Button();
-            this.btnLeftSelect = new System.Windows.Forms.Button();
-            this.btnRearSelect = new System.Windows.Forms.Button();
-            this.btnFrontSelect = new System.Windows.Forms.Button();
-            this.btnRightPlus = new System.Windows.Forms.Button();
-            this.btnLeftPlus = new System.Windows.Forms.Button();
-            this.btnRearPlus = new System.Windows.Forms.Button();
-            this.btnFrontPlus = new System.Windows.Forms.Button();
-            this.txtBoxRight = new System.Windows.Forms.TextBox();
-            this.textBoxRear = new System.Windows.Forms.TextBox();
-            this.txtBoxSFTotal = new System.Windows.Forms.TextBox();
-            this.txtBoxLeft = new System.Windows.Forms.TextBox();
-            this.txtBoxFront = new System.Windows.Forms.TextBox();
-            this.btnRightMinus = new System.Windows.Forms.Button();
-            this.btnLeftMinus = new System.Windows.Forms.Button();
-            this.btnRearMinus = new System.Windows.Forms.Button();
-            this.btnFrontMinus = new System.Windows.Forms.Button();
+            this.btnGAUpdate = new System.Windows.Forms.Button();
+            this.btnGARightSelect = new System.Windows.Forms.Button();
+            this.btnGALeftSelect = new System.Windows.Forms.Button();
+            this.btnGARearSelect = new System.Windows.Forms.Button();
+            this.btnGAFrontSelect = new System.Windows.Forms.Button();
+            this.btnGARightPlus = new System.Windows.Forms.Button();
+            this.btnGALeftPlus = new System.Windows.Forms.Button();
+            this.btnGARearPlus = new System.Windows.Forms.Button();
+            this.btnGAFrontPlus = new System.Windows.Forms.Button();
+            this.txtGARight = new System.Windows.Forms.TextBox();
+            this.txtGARear = new System.Windows.Forms.TextBox();
+            this.txtGASFTotal = new System.Windows.Forms.TextBox();
+            this.txtGALeft = new System.Windows.Forms.TextBox();
+            this.txtGAFront = new System.Windows.Forms.TextBox();
+            this.btnGARightMinus = new System.Windows.Forms.Button();
+            this.btnGALeftMinus = new System.Windows.Forms.Button();
+            this.btnGARearMinus = new System.Windows.Forms.Button();
+            this.btnGAFrontMinus = new System.Windows.Forms.Button();
             this.grpBoxPeripheralArea = new System.Windows.Forms.GroupBox();
-            this.btnGzCalTotalArea = new System.Windows.Forms.Button();
-            this.btnGzFrstFlrPhSelect = new System.Windows.Forms.Button();
-            this.btnGzForthFlrPhSelect = new System.Windows.Forms.Button();
-            this.btnForthFloorHeightSelect = new System.Windows.Forms.Button();
-            this.btnThirdFloorHeightSelect = new System.Windows.Forms.Button();
-            this.btnGzThrdFlrPhSelect = new System.Windows.Forms.Button();
-            this.btnScndFloorHeightSelect = new System.Windows.Forms.Button();
-            this.btnGzScndFlrPhSelect = new System.Windows.Forms.Button();
-            this.btnFrstFloorHeightSelect = new System.Windows.Forms.Button();
+            this.btnGLZWDAP1 = new System.Windows.Forms.Button();
+            this.btnGLZWDAP4 = new System.Windows.Forms.Button();
+            this.btnGLZWDH4 = new System.Windows.Forms.Button();
+            this.btnGLZWDH3 = new System.Windows.Forms.Button();
+            this.btnGLZWDAP3 = new System.Windows.Forms.Button();
+            this.btnGLZWDH2 = new System.Windows.Forms.Button();
+            this.btnGLZWDAP2 = new System.Windows.Forms.Button();
+            this.btnGLZWDH1 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -77,16 +76,16 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.txtBoxGzTotalSMArea = new System.Windows.Forms.TextBox();
-            this.txtBoxGzTotalSFArea = new System.Windows.Forms.TextBox();
-            this.txtBoxGzWDSecFloorPeripheral = new System.Windows.Forms.TextBox();
-            this.txtBoxGzFstFloorHeight = new System.Windows.Forms.TextBox();
-            this.txtBoxGZFstFloorPeriPheral = new System.Windows.Forms.TextBox();
-            this.txtBoxGzforthFloorHeight = new System.Windows.Forms.TextBox();
-            this.txtBoxForthFloorPeripheral = new System.Windows.Forms.TextBox();
-            this.txtBoxGzThrdFloorHeight = new System.Windows.Forms.TextBox();
-            this.txtBoxGzThrdFloorPeripheral = new System.Windows.Forms.TextBox();
-            this.txtBoxGzSecFloorHeight = new System.Windows.Forms.TextBox();
+            this.txtGLZWDTotalSMArea = new System.Windows.Forms.TextBox();
+            this.txtGLZWDTotalArea = new System.Windows.Forms.TextBox();
+            this.txtGLZWDAP2 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDH1 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDAP1 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDH4 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDAP4 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDH3 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDAP3 = new System.Windows.Forms.TextBox();
+            this.txtGLZWDH2 = new System.Windows.Forms.TextBox();
             this.lblGzforthFloorHeight = new System.Windows.Forms.Label();
             this.lblBoxGzThrdFloorHeight = new System.Windows.Forms.Label();
             this.lblGZforthFloorPeriPheral = new System.Windows.Forms.Label();
@@ -118,9 +117,8 @@
             this.lblGlazing = new System.Windows.Forms.Label();
             this.grpBoxGlazing = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtBoxSMTotal = new System.Windows.Forms.TextBox();
-            this.btnCalTotalArea = new System.Windows.Forms.Button();
-            this.btnSave = new System.Windows.Forms.Button();
+            this.txtGASMTotal = new System.Windows.Forms.TextBox();
+            this.btnGASave = new System.Windows.Forms.Button();
             this.comboBoxElevation = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.grpBoxPeripheralArea.SuspendLayout();
@@ -238,220 +236,224 @@
             this.lblLeftUnit.TabIndex = 4;
             this.lblLeftUnit.Text = "S.F ";
             // 
-            // btnUpdate
+            // btnGAUpdate
             // 
-            this.btnUpdate.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.ForeColor = System.Drawing.Color.Gray;
-            this.btnUpdate.Location = new System.Drawing.Point(506, 575);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(110, 32);
-            this.btnUpdate.TabIndex = 16;
-            this.btnUpdate.Text = "UPDATE";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            this.btnGAUpdate.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGAUpdate.ForeColor = System.Drawing.Color.Gray;
+            this.btnGAUpdate.Location = new System.Drawing.Point(506, 575);
+            this.btnGAUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGAUpdate.Name = "btnGAUpdate";
+            this.btnGAUpdate.Size = new System.Drawing.Size(110, 32);
+            this.btnGAUpdate.TabIndex = 16;
+            this.btnGAUpdate.Text = "UPDATE";
+            this.btnGAUpdate.UseVisualStyleBackColor = true;
+            this.btnGAUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // btnRightSelect
+            // btnGARightSelect
             // 
-            this.btnRightSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnRightSelect.Location = new System.Drawing.Point(174, 146);
-            this.btnRightSelect.Name = "btnRightSelect";
-            this.btnRightSelect.Size = new System.Drawing.Size(27, 23);
-            this.btnRightSelect.TabIndex = 33;
-            this.btnRightSelect.Text = "S";
-            this.btnRightSelect.UseVisualStyleBackColor = true;
-            this.btnRightSelect.Click += new System.EventHandler(this.btnRightSelect_Click);
+            this.btnGARightSelect.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARightSelect.Location = new System.Drawing.Point(174, 146);
+            this.btnGARightSelect.Name = "btnGARightSelect";
+            this.btnGARightSelect.Size = new System.Drawing.Size(27, 23);
+            this.btnGARightSelect.TabIndex = 33;
+            this.btnGARightSelect.Text = "S";
+            this.btnGARightSelect.UseVisualStyleBackColor = true;
+            this.btnGARightSelect.Click += new System.EventHandler(this.btnGARightSelect_Click);
             // 
-            // btnLeftSelect
+            // btnGALeftSelect
             // 
-            this.btnLeftSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnLeftSelect.Location = new System.Drawing.Point(174, 107);
-            this.btnLeftSelect.Name = "btnLeftSelect";
-            this.btnLeftSelect.Size = new System.Drawing.Size(27, 23);
-            this.btnLeftSelect.TabIndex = 32;
-            this.btnLeftSelect.Text = "S";
-            this.btnLeftSelect.UseVisualStyleBackColor = true;
-            this.btnLeftSelect.Click += new System.EventHandler(this.btnLeftSelect_Click);
+            this.btnGALeftSelect.ForeColor = System.Drawing.Color.Gray;
+            this.btnGALeftSelect.Location = new System.Drawing.Point(174, 107);
+            this.btnGALeftSelect.Name = "btnGALeftSelect";
+            this.btnGALeftSelect.Size = new System.Drawing.Size(27, 23);
+            this.btnGALeftSelect.TabIndex = 32;
+            this.btnGALeftSelect.Text = "S";
+            this.btnGALeftSelect.UseVisualStyleBackColor = true;
+            this.btnGALeftSelect.Click += new System.EventHandler(this.btnGALeftSelect_Click);
             // 
-            // btnRearSelect
+            // btnGARearSelect
             // 
-            this.btnRearSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnRearSelect.Location = new System.Drawing.Point(174, 67);
-            this.btnRearSelect.Name = "btnRearSelect";
-            this.btnRearSelect.Size = new System.Drawing.Size(27, 23);
-            this.btnRearSelect.TabIndex = 31;
-            this.btnRearSelect.Text = "S";
-            this.btnRearSelect.UseVisualStyleBackColor = true;
-            this.btnRearSelect.Click += new System.EventHandler(this.btnRearSelect_Click);
+            this.btnGARearSelect.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARearSelect.Location = new System.Drawing.Point(174, 67);
+            this.btnGARearSelect.Name = "btnGARearSelect";
+            this.btnGARearSelect.Size = new System.Drawing.Size(27, 23);
+            this.btnGARearSelect.TabIndex = 31;
+            this.btnGARearSelect.Text = "S";
+            this.btnGARearSelect.UseVisualStyleBackColor = true;
+            this.btnGARearSelect.Click += new System.EventHandler(this.btnGARearSelect_Click);
             // 
-            // btnFrontSelect
+            // btnGAFrontSelect
             // 
-            this.btnFrontSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrontSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnFrontSelect.Location = new System.Drawing.Point(174, 29);
-            this.btnFrontSelect.Name = "btnFrontSelect";
-            this.btnFrontSelect.Size = new System.Drawing.Size(27, 23);
-            this.btnFrontSelect.TabIndex = 30;
-            this.btnFrontSelect.Text = "S";
-            this.btnFrontSelect.UseVisualStyleBackColor = true;
-            this.btnFrontSelect.Click += new System.EventHandler(this.FrontSelBtn_Click);
+            this.btnGAFrontSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGAFrontSelect.ForeColor = System.Drawing.Color.Gray;
+            this.btnGAFrontSelect.Location = new System.Drawing.Point(174, 29);
+            this.btnGAFrontSelect.Name = "btnGAFrontSelect";
+            this.btnGAFrontSelect.Size = new System.Drawing.Size(27, 23);
+            this.btnGAFrontSelect.TabIndex = 30;
+            this.btnGAFrontSelect.Text = "S";
+            this.btnGAFrontSelect.UseVisualStyleBackColor = true;
+            this.btnGAFrontSelect.Click += new System.EventHandler(this.btnGAFrontSelect_Click);
             // 
-            // btnRightPlus
+            // btnGARightPlus
             // 
-            this.btnRightPlus.ForeColor = System.Drawing.Color.Gray;
-            this.btnRightPlus.Location = new System.Drawing.Point(211, 146);
-            this.btnRightPlus.Name = "btnRightPlus";
-            this.btnRightPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnRightPlus.TabIndex = 29;
-            this.btnRightPlus.Text = "+";
-            this.btnRightPlus.UseVisualStyleBackColor = true;
-            this.btnRightPlus.Click += new System.EventHandler(this.RiPlusBtn_Click);
+            this.btnGARightPlus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARightPlus.Location = new System.Drawing.Point(211, 146);
+            this.btnGARightPlus.Name = "btnGARightPlus";
+            this.btnGARightPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnGARightPlus.TabIndex = 29;
+            this.btnGARightPlus.Text = "+";
+            this.btnGARightPlus.UseVisualStyleBackColor = true;
+            this.btnGARightPlus.Click += new System.EventHandler(this.btnGARightPlus_Click);
             // 
-            // btnLeftPlus
+            // btnGALeftPlus
             // 
-            this.btnLeftPlus.ForeColor = System.Drawing.Color.Gray;
-            this.btnLeftPlus.Location = new System.Drawing.Point(211, 107);
-            this.btnLeftPlus.Name = "btnLeftPlus";
-            this.btnLeftPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnLeftPlus.TabIndex = 28;
-            this.btnLeftPlus.Text = "+";
-            this.btnLeftPlus.UseVisualStyleBackColor = true;
-            this.btnLeftPlus.Click += new System.EventHandler(this.btnLeftPlus_Click);
+            this.btnGALeftPlus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGALeftPlus.Location = new System.Drawing.Point(211, 107);
+            this.btnGALeftPlus.Name = "btnGALeftPlus";
+            this.btnGALeftPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnGALeftPlus.TabIndex = 28;
+            this.btnGALeftPlus.Text = "+";
+            this.btnGALeftPlus.UseVisualStyleBackColor = true;
+            this.btnGALeftPlus.Click += new System.EventHandler(this.btnGALeftPlus_Click);
             // 
-            // btnRearPlus
+            // btnGARearPlus
             // 
-            this.btnRearPlus.ForeColor = System.Drawing.Color.Gray;
-            this.btnRearPlus.Location = new System.Drawing.Point(211, 67);
-            this.btnRearPlus.Name = "btnRearPlus";
-            this.btnRearPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnRearPlus.TabIndex = 27;
-            this.btnRearPlus.Text = "+";
-            this.btnRearPlus.UseVisualStyleBackColor = true;
-            this.btnRearPlus.Click += new System.EventHandler(this.btnRearPlus_Click);
+            this.btnGARearPlus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARearPlus.Location = new System.Drawing.Point(211, 67);
+            this.btnGARearPlus.Name = "btnGARearPlus";
+            this.btnGARearPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnGARearPlus.TabIndex = 27;
+            this.btnGARearPlus.Text = "+";
+            this.btnGARearPlus.UseVisualStyleBackColor = true;
+            this.btnGARearPlus.Click += new System.EventHandler(this.bbtnGARearPlus_Click);
             // 
-            // btnFrontPlus
+            // btnGAFrontPlus
             // 
-            this.btnFrontPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrontPlus.ForeColor = System.Drawing.Color.Gray;
-            this.btnFrontPlus.Location = new System.Drawing.Point(211, 29);
-            this.btnFrontPlus.Name = "btnFrontPlus";
-            this.btnFrontPlus.Size = new System.Drawing.Size(27, 23);
-            this.btnFrontPlus.TabIndex = 26;
-            this.btnFrontPlus.Text = "+";
-            this.btnFrontPlus.UseVisualStyleBackColor = true;
-            this.btnFrontPlus.Click += new System.EventHandler(this.btnFrontPlus_Click);
+            this.btnGAFrontPlus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGAFrontPlus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGAFrontPlus.Location = new System.Drawing.Point(211, 29);
+            this.btnGAFrontPlus.Name = "btnGAFrontPlus";
+            this.btnGAFrontPlus.Size = new System.Drawing.Size(27, 23);
+            this.btnGAFrontPlus.TabIndex = 26;
+            this.btnGAFrontPlus.Text = "+";
+            this.btnGAFrontPlus.UseVisualStyleBackColor = true;
+            this.btnGAFrontPlus.Click += new System.EventHandler(this.btnGAFrontPlus_Click);
             // 
-            // txtBoxRight
+            // txtGARight
             // 
-            this.txtBoxRight.Enabled = false;
-            this.txtBoxRight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxRight.Location = new System.Drawing.Point(79, 144);
-            this.txtBoxRight.Name = "txtBoxRight";
-            this.txtBoxRight.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxRight.TabIndex = 25;
-            this.txtBoxRight.Text = "0";
-            this.txtBoxRight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGARight.Enabled = false;
+            this.txtGARight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGARight.Location = new System.Drawing.Point(79, 144);
+            this.txtGARight.Name = "txtGARight";
+            this.txtGARight.Size = new System.Drawing.Size(52, 22);
+            this.txtGARight.TabIndex = 25;
+            this.txtGARight.Text = "0";
+            this.txtGARight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGARight.TextChanged += new System.EventHandler(this.txtGARight_TextChanged);
             // 
-            // textBoxRear
+            // txtGARear
             // 
-            this.textBoxRear.Enabled = false;
-            this.textBoxRear.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRear.Location = new System.Drawing.Point(79, 66);
-            this.textBoxRear.Name = "textBoxRear";
-            this.textBoxRear.Size = new System.Drawing.Size(52, 22);
-            this.textBoxRear.TabIndex = 24;
-            this.textBoxRear.Text = "0";
-            this.textBoxRear.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGARear.Enabled = false;
+            this.txtGARear.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGARear.Location = new System.Drawing.Point(79, 66);
+            this.txtGARear.Name = "txtGARear";
+            this.txtGARear.Size = new System.Drawing.Size(52, 22);
+            this.txtGARear.TabIndex = 24;
+            this.txtGARear.Text = "0";
+            this.txtGARear.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGARear.TextChanged += new System.EventHandler(this.txtGARear_TextChanged);
             // 
-            // txtBoxSFTotal
+            // txtGASFTotal
             // 
-            this.txtBoxSFTotal.Enabled = false;
-            this.txtBoxSFTotal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSFTotal.Location = new System.Drawing.Point(79, 183);
-            this.txtBoxSFTotal.Name = "txtBoxSFTotal";
-            this.txtBoxSFTotal.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxSFTotal.TabIndex = 23;
-            this.txtBoxSFTotal.Text = "0";
-            this.txtBoxSFTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGASFTotal.Enabled = false;
+            this.txtGASFTotal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGASFTotal.Location = new System.Drawing.Point(79, 183);
+            this.txtGASFTotal.Name = "txtGASFTotal";
+            this.txtGASFTotal.Size = new System.Drawing.Size(52, 22);
+            this.txtGASFTotal.TabIndex = 23;
+            this.txtGASFTotal.Text = "0";
+            this.txtGASFTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGASFTotal.TextChanged += new System.EventHandler(this.txtGASFTotal_TextChanged);
             // 
-            // txtBoxLeft
+            // txtGALeft
             // 
-            this.txtBoxLeft.Enabled = false;
-            this.txtBoxLeft.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxLeft.Location = new System.Drawing.Point(79, 105);
-            this.txtBoxLeft.Name = "txtBoxLeft";
-            this.txtBoxLeft.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxLeft.TabIndex = 22;
-            this.txtBoxLeft.Text = "0";
-            this.txtBoxLeft.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGALeft.Enabled = false;
+            this.txtGALeft.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGALeft.Location = new System.Drawing.Point(79, 105);
+            this.txtGALeft.Name = "txtGALeft";
+            this.txtGALeft.Size = new System.Drawing.Size(52, 22);
+            this.txtGALeft.TabIndex = 22;
+            this.txtGALeft.Text = "0";
+            this.txtGALeft.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGALeft.TextChanged += new System.EventHandler(this.txtGALeft_TextChanged);
             // 
-            // txtBoxFront
+            // txtGAFront
             // 
-            this.txtBoxFront.Enabled = false;
-            this.txtBoxFront.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxFront.Location = new System.Drawing.Point(79, 27);
-            this.txtBoxFront.Name = "txtBoxFront";
-            this.txtBoxFront.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxFront.TabIndex = 21;
-            this.txtBoxFront.Text = "0";
-            this.txtBoxFront.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGAFront.Enabled = false;
+            this.txtGAFront.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGAFront.Location = new System.Drawing.Point(79, 27);
+            this.txtGAFront.Name = "txtGAFront";
+            this.txtGAFront.Size = new System.Drawing.Size(52, 22);
+            this.txtGAFront.TabIndex = 21;
+            this.txtGAFront.Text = "0";
+            this.txtGAFront.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGAFront.TextChanged += new System.EventHandler(this.txtGAFront_TextChanged);
             // 
-            // btnRightMinus
+            // btnGARightMinus
             // 
-            this.btnRightMinus.ForeColor = System.Drawing.Color.Gray;
-            this.btnRightMinus.Location = new System.Drawing.Point(244, 146);
-            this.btnRightMinus.Name = "btnRightMinus";
-            this.btnRightMinus.Size = new System.Drawing.Size(27, 23);
-            this.btnRightMinus.TabIndex = 20;
-            this.btnRightMinus.Text = "-";
-            this.btnRightMinus.UseVisualStyleBackColor = true;
-            this.btnRightMinus.Click += new System.EventHandler(this.btnRightMinus_Click);
+            this.btnGARightMinus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARightMinus.Location = new System.Drawing.Point(244, 146);
+            this.btnGARightMinus.Name = "btnGARightMinus";
+            this.btnGARightMinus.Size = new System.Drawing.Size(27, 23);
+            this.btnGARightMinus.TabIndex = 20;
+            this.btnGARightMinus.Text = "-";
+            this.btnGARightMinus.UseVisualStyleBackColor = true;
+            this.btnGARightMinus.Click += new System.EventHandler(this.btnGARightMinus_Click);
             // 
-            // btnLeftMinus
+            // btnGALeftMinus
             // 
-            this.btnLeftMinus.ForeColor = System.Drawing.Color.Gray;
-            this.btnLeftMinus.Location = new System.Drawing.Point(244, 107);
-            this.btnLeftMinus.Name = "btnLeftMinus";
-            this.btnLeftMinus.Size = new System.Drawing.Size(27, 23);
-            this.btnLeftMinus.TabIndex = 18;
-            this.btnLeftMinus.Text = "-";
-            this.btnLeftMinus.UseVisualStyleBackColor = true;
-            this.btnLeftMinus.Click += new System.EventHandler(this.btnLeftMinus_Click);
+            this.btnGALeftMinus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGALeftMinus.Location = new System.Drawing.Point(244, 107);
+            this.btnGALeftMinus.Name = "btnGALeftMinus";
+            this.btnGALeftMinus.Size = new System.Drawing.Size(27, 23);
+            this.btnGALeftMinus.TabIndex = 18;
+            this.btnGALeftMinus.Text = "-";
+            this.btnGALeftMinus.UseVisualStyleBackColor = true;
+            this.btnGALeftMinus.Click += new System.EventHandler(this.btnGALeftMinus_Click);
             // 
-            // btnRearMinus
+            // btnGARearMinus
             // 
-            this.btnRearMinus.ForeColor = System.Drawing.Color.Gray;
-            this.btnRearMinus.Location = new System.Drawing.Point(244, 67);
-            this.btnRearMinus.Name = "btnRearMinus";
-            this.btnRearMinus.Size = new System.Drawing.Size(27, 23);
-            this.btnRearMinus.TabIndex = 16;
-            this.btnRearMinus.Text = "-";
-            this.btnRearMinus.UseVisualStyleBackColor = true;
-            this.btnRearMinus.Click += new System.EventHandler(this.btnRearMinus_Click);
+            this.btnGARearMinus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGARearMinus.Location = new System.Drawing.Point(244, 67);
+            this.btnGARearMinus.Name = "btnGARearMinus";
+            this.btnGARearMinus.Size = new System.Drawing.Size(27, 23);
+            this.btnGARearMinus.TabIndex = 16;
+            this.btnGARearMinus.Text = "-";
+            this.btnGARearMinus.UseVisualStyleBackColor = true;
+            this.btnGARearMinus.Click += new System.EventHandler(this.btnGARearMinus_Click);
             // 
-            // btnFrontMinus
+            // btnGAFrontMinus
             // 
-            this.btnFrontMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrontMinus.ForeColor = System.Drawing.Color.Gray;
-            this.btnFrontMinus.Location = new System.Drawing.Point(244, 29);
-            this.btnFrontMinus.Name = "btnFrontMinus";
-            this.btnFrontMinus.Size = new System.Drawing.Size(27, 23);
-            this.btnFrontMinus.TabIndex = 14;
-            this.btnFrontMinus.Text = "-";
-            this.btnFrontMinus.UseVisualStyleBackColor = true;
-            this.btnFrontMinus.Click += new System.EventHandler(this.btnFrontMinus_Click);
+            this.btnGAFrontMinus.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGAFrontMinus.ForeColor = System.Drawing.Color.Gray;
+            this.btnGAFrontMinus.Location = new System.Drawing.Point(244, 29);
+            this.btnGAFrontMinus.Name = "btnGAFrontMinus";
+            this.btnGAFrontMinus.Size = new System.Drawing.Size(27, 23);
+            this.btnGAFrontMinus.TabIndex = 14;
+            this.btnGAFrontMinus.Text = "-";
+            this.btnGAFrontMinus.UseVisualStyleBackColor = true;
+            this.btnGAFrontMinus.Click += new System.EventHandler(this.btnGAFrontMinus_Click);
             // 
             // grpBoxPeripheralArea
             // 
-            this.grpBoxPeripheralArea.Controls.Add(this.btnGzCalTotalArea);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnGzFrstFlrPhSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnGzForthFlrPhSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnForthFloorHeightSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnThirdFloorHeightSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnGzThrdFlrPhSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnScndFloorHeightSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnGzScndFlrPhSelect);
-            this.grpBoxPeripheralArea.Controls.Add(this.btnFrstFloorHeightSelect);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDAP1);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDAP4);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDH4);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDH3);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDAP3);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDH2);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDAP2);
+            this.grpBoxPeripheralArea.Controls.Add(this.btnGLZWDH1);
             this.grpBoxPeripheralArea.Controls.Add(this.label21);
             this.grpBoxPeripheralArea.Controls.Add(this.label20);
             this.grpBoxPeripheralArea.Controls.Add(this.label19);
@@ -463,16 +465,16 @@
             this.grpBoxPeripheralArea.Controls.Add(this.label13);
             this.grpBoxPeripheralArea.Controls.Add(this.label12);
             this.grpBoxPeripheralArea.Controls.Add(this.label11);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzTotalSMArea);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzTotalSFArea);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzWDSecFloorPeripheral);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzFstFloorHeight);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGZFstFloorPeriPheral);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzforthFloorHeight);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxForthFloorPeripheral);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzThrdFloorHeight);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzThrdFloorPeripheral);
-            this.grpBoxPeripheralArea.Controls.Add(this.txtBoxGzSecFloorHeight);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDTotalSMArea);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDTotalArea);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDAP2);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDH1);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDAP1);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDH4);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDAP4);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDH3);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDAP3);
+            this.grpBoxPeripheralArea.Controls.Add(this.txtGLZWDH2);
             this.grpBoxPeripheralArea.Controls.Add(this.lblGzforthFloorHeight);
             this.grpBoxPeripheralArea.Controls.Add(this.lblBoxGzThrdFloorHeight);
             this.grpBoxPeripheralArea.Controls.Add(this.lblGZforthFloorPeriPheral);
@@ -488,113 +490,101 @@
             this.grpBoxPeripheralArea.TabStop = false;
             this.grpBoxPeripheralArea.Text = "Total Peripheral Wall Area";
             // 
-            // btnGzCalTotalArea
+            // btnGLZWDAP1
             // 
-            this.btnGzCalTotalArea.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGzCalTotalArea.ForeColor = System.Drawing.Color.Gray;
-            this.btnGzCalTotalArea.Image = global::GlazingArea.Properties.Resources.Calculator;
-            this.btnGzCalTotalArea.Location = new System.Drawing.Point(302, 252);
-            this.btnGzCalTotalArea.Name = "btnGzCalTotalArea";
-            this.btnGzCalTotalArea.Size = new System.Drawing.Size(39, 23);
-            this.btnGzCalTotalArea.TabIndex = 51;
-            this.btnGzCalTotalArea.UseVisualStyleBackColor = true;
-            this.btnGzCalTotalArea.Click += new System.EventHandler(this.btnGzCalTotalArea_Click);
+            this.btnGLZWDAP1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDAP1.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDAP1.Location = new System.Drawing.Point(302, 18);
+            this.btnGLZWDAP1.Name = "btnGLZWDAP1";
+            this.btnGLZWDAP1.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDAP1.TabIndex = 50;
+            this.btnGLZWDAP1.Text = "S";
+            this.btnGLZWDAP1.UseVisualStyleBackColor = true;
+            this.btnGLZWDAP1.Click += new System.EventHandler(this.btnGLZWDAP1_Click);
             // 
-            // btnGzFrstFlrPhSelect
+            // btnGLZWDAP4
             // 
-            this.btnGzFrstFlrPhSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGzFrstFlrPhSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnGzFrstFlrPhSelect.Location = new System.Drawing.Point(302, 18);
-            this.btnGzFrstFlrPhSelect.Name = "btnGzFrstFlrPhSelect";
-            this.btnGzFrstFlrPhSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnGzFrstFlrPhSelect.TabIndex = 50;
-            this.btnGzFrstFlrPhSelect.Text = "S";
-            this.btnGzFrstFlrPhSelect.UseVisualStyleBackColor = true;
-            this.btnGzFrstFlrPhSelect.Click += new System.EventHandler(this.btnGzFrstFlrPhSelect_Click);
+            this.btnGLZWDAP4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDAP4.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDAP4.Location = new System.Drawing.Point(302, 194);
+            this.btnGLZWDAP4.Name = "btnGLZWDAP4";
+            this.btnGLZWDAP4.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDAP4.TabIndex = 49;
+            this.btnGLZWDAP4.Text = "S";
+            this.btnGLZWDAP4.UseVisualStyleBackColor = true;
+            this.btnGLZWDAP4.Click += new System.EventHandler(this.btnGLZWDAP4_Click);
             // 
-            // btnGzForthFlrPhSelect
+            // btnGLZWDH4
             // 
-            this.btnGzForthFlrPhSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGzForthFlrPhSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnGzForthFlrPhSelect.Location = new System.Drawing.Point(302, 194);
-            this.btnGzForthFlrPhSelect.Name = "btnGzForthFlrPhSelect";
-            this.btnGzForthFlrPhSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnGzForthFlrPhSelect.TabIndex = 49;
-            this.btnGzForthFlrPhSelect.Text = "S";
-            this.btnGzForthFlrPhSelect.UseVisualStyleBackColor = true;
-            this.btnGzForthFlrPhSelect.Click += new System.EventHandler(this.btnGzForthFlrPhSelect_Click);
+            this.btnGLZWDH4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDH4.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDH4.Location = new System.Drawing.Point(302, 224);
+            this.btnGLZWDH4.Name = "btnGLZWDH4";
+            this.btnGLZWDH4.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDH4.TabIndex = 48;
+            this.btnGLZWDH4.Text = "S";
+            this.btnGLZWDH4.UseVisualStyleBackColor = true;
+            this.btnGLZWDH4.Click += new System.EventHandler(this.btnForthFloorHeightSelect_Click);
             // 
-            // btnForthFloorHeightSelect
+            // btnGLZWDH3
             // 
-            this.btnForthFloorHeightSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnForthFloorHeightSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnForthFloorHeightSelect.Location = new System.Drawing.Point(302, 224);
-            this.btnForthFloorHeightSelect.Name = "btnForthFloorHeightSelect";
-            this.btnForthFloorHeightSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnForthFloorHeightSelect.TabIndex = 48;
-            this.btnForthFloorHeightSelect.Text = "S";
-            this.btnForthFloorHeightSelect.UseVisualStyleBackColor = true;
-            this.btnForthFloorHeightSelect.Click += new System.EventHandler(this.btnForthFloorHeightSelect_Click);
+            this.btnGLZWDH3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDH3.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDH3.Location = new System.Drawing.Point(302, 165);
+            this.btnGLZWDH3.Name = "btnGLZWDH3";
+            this.btnGLZWDH3.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDH3.TabIndex = 47;
+            this.btnGLZWDH3.Text = "S";
+            this.btnGLZWDH3.UseVisualStyleBackColor = true;
+            this.btnGLZWDH3.Click += new System.EventHandler(this.btnGLZWDH3_Click);
             // 
-            // btnThirdFloorHeightSelect
+            // btnGLZWDAP3
             // 
-            this.btnThirdFloorHeightSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThirdFloorHeightSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnThirdFloorHeightSelect.Location = new System.Drawing.Point(302, 165);
-            this.btnThirdFloorHeightSelect.Name = "btnThirdFloorHeightSelect";
-            this.btnThirdFloorHeightSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnThirdFloorHeightSelect.TabIndex = 47;
-            this.btnThirdFloorHeightSelect.Text = "S";
-            this.btnThirdFloorHeightSelect.UseVisualStyleBackColor = true;
-            this.btnThirdFloorHeightSelect.Click += new System.EventHandler(this.btnThirdFloorHeightSelect_Click);
+            this.btnGLZWDAP3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDAP3.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDAP3.Location = new System.Drawing.Point(302, 132);
+            this.btnGLZWDAP3.Name = "btnGLZWDAP3";
+            this.btnGLZWDAP3.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDAP3.TabIndex = 46;
+            this.btnGLZWDAP3.Text = "S";
+            this.btnGLZWDAP3.UseVisualStyleBackColor = true;
+            this.btnGLZWDAP3.Click += new System.EventHandler(this.btnGLZWDAP3_Click);
             // 
-            // btnGzThrdFlrPhSelect
+            // btnGLZWDH2
             // 
-            this.btnGzThrdFlrPhSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGzThrdFlrPhSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnGzThrdFlrPhSelect.Location = new System.Drawing.Point(302, 132);
-            this.btnGzThrdFlrPhSelect.Name = "btnGzThrdFlrPhSelect";
-            this.btnGzThrdFlrPhSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnGzThrdFlrPhSelect.TabIndex = 46;
-            this.btnGzThrdFlrPhSelect.Text = "S";
-            this.btnGzThrdFlrPhSelect.UseVisualStyleBackColor = true;
-            this.btnGzThrdFlrPhSelect.Click += new System.EventHandler(this.btnGzThrdFlrPhSelect_Click);
+            this.btnGLZWDH2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDH2.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDH2.Location = new System.Drawing.Point(302, 106);
+            this.btnGLZWDH2.Name = "btnGLZWDH2";
+            this.btnGLZWDH2.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDH2.TabIndex = 45;
+            this.btnGLZWDH2.Text = "S";
+            this.btnGLZWDH2.UseVisualStyleBackColor = true;
+            this.btnGLZWDH2.Click += new System.EventHandler(this.bbtnGLZWDH2_Click);
             // 
-            // btnScndFloorHeightSelect
+            // btnGLZWDAP2
             // 
-            this.btnScndFloorHeightSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScndFloorHeightSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnScndFloorHeightSelect.Location = new System.Drawing.Point(302, 106);
-            this.btnScndFloorHeightSelect.Name = "btnScndFloorHeightSelect";
-            this.btnScndFloorHeightSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnScndFloorHeightSelect.TabIndex = 45;
-            this.btnScndFloorHeightSelect.Text = "S";
-            this.btnScndFloorHeightSelect.UseVisualStyleBackColor = true;
-            this.btnScndFloorHeightSelect.Click += new System.EventHandler(this.btnScndFloorHeightSelect_Click);
+            this.btnGLZWDAP2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDAP2.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDAP2.Location = new System.Drawing.Point(302, 77);
+            this.btnGLZWDAP2.Name = "btnGLZWDAP2";
+            this.btnGLZWDAP2.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDAP2.TabIndex = 44;
+            this.btnGLZWDAP2.Text = "S";
+            this.btnGLZWDAP2.UseVisualStyleBackColor = true;
+            this.btnGLZWDAP2.Click += new System.EventHandler(this.btnGzScndFlrPhSelect_Click);
             // 
-            // btnGzScndFlrPhSelect
+            // btnGLZWDH1
             // 
-            this.btnGzScndFlrPhSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGzScndFlrPhSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnGzScndFlrPhSelect.Location = new System.Drawing.Point(302, 77);
-            this.btnGzScndFlrPhSelect.Name = "btnGzScndFlrPhSelect";
-            this.btnGzScndFlrPhSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnGzScndFlrPhSelect.TabIndex = 44;
-            this.btnGzScndFlrPhSelect.Text = "S";
-            this.btnGzScndFlrPhSelect.UseVisualStyleBackColor = true;
-            this.btnGzScndFlrPhSelect.Click += new System.EventHandler(this.btnGzScndFlrPhSelect_Click);
-            // 
-            // btnFrstFloorHeightSelect
-            // 
-            this.btnFrstFloorHeightSelect.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrstFloorHeightSelect.ForeColor = System.Drawing.Color.Gray;
-            this.btnFrstFloorHeightSelect.Location = new System.Drawing.Point(302, 46);
-            this.btnFrstFloorHeightSelect.Name = "btnFrstFloorHeightSelect";
-            this.btnFrstFloorHeightSelect.Size = new System.Drawing.Size(39, 23);
-            this.btnFrstFloorHeightSelect.TabIndex = 43;
-            this.btnFrstFloorHeightSelect.Text = "S";
-            this.btnFrstFloorHeightSelect.UseVisualStyleBackColor = true;
-            this.btnFrstFloorHeightSelect.Click += new System.EventHandler(this.btnSelectFrstFloorHeight_Click);
+            this.btnGLZWDH1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGLZWDH1.ForeColor = System.Drawing.Color.Gray;
+            this.btnGLZWDH1.Location = new System.Drawing.Point(302, 46);
+            this.btnGLZWDH1.Name = "btnGLZWDH1";
+            this.btnGLZWDH1.Size = new System.Drawing.Size(39, 23);
+            this.btnGLZWDH1.TabIndex = 43;
+            this.btnGLZWDH1.Text = "S";
+            this.btnGLZWDH1.UseVisualStyleBackColor = true;
+            this.btnGLZWDH1.Click += new System.EventHandler(this.btnGLZWDH1_Click);
             // 
             // label21
             // 
@@ -717,115 +707,122 @@
             this.label11.TabIndex = 32;
             this.label11.Text = "Total Area";
             // 
-            // txtBoxGzTotalSMArea
+            // txtGLZWDTotalSMArea
             // 
-            this.txtBoxGzTotalSMArea.Enabled = false;
-            this.txtBoxGzTotalSMArea.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzTotalSMArea.Location = new System.Drawing.Point(209, 283);
-            this.txtBoxGzTotalSMArea.Name = "txtBoxGzTotalSMArea";
-            this.txtBoxGzTotalSMArea.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzTotalSMArea.TabIndex = 31;
-            this.txtBoxGzTotalSMArea.Text = "0";
-            this.txtBoxGzTotalSMArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDTotalSMArea.Enabled = false;
+            this.txtGLZWDTotalSMArea.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDTotalSMArea.Location = new System.Drawing.Point(209, 283);
+            this.txtGLZWDTotalSMArea.Name = "txtGLZWDTotalSMArea";
+            this.txtGLZWDTotalSMArea.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDTotalSMArea.TabIndex = 31;
+            this.txtGLZWDTotalSMArea.Text = "0";
+            this.txtGLZWDTotalSMArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // txtBoxGzTotalSFArea
+            // txtGLZWDTotalArea
             // 
-            this.txtBoxGzTotalSFArea.Enabled = false;
-            this.txtBoxGzTotalSFArea.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzTotalSFArea.Location = new System.Drawing.Point(209, 252);
-            this.txtBoxGzTotalSFArea.Name = "txtBoxGzTotalSFArea";
-            this.txtBoxGzTotalSFArea.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzTotalSFArea.TabIndex = 30;
-            this.txtBoxGzTotalSFArea.Text = "0";
-            this.txtBoxGzTotalSFArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDTotalArea.Enabled = false;
+            this.txtGLZWDTotalArea.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDTotalArea.Location = new System.Drawing.Point(209, 252);
+            this.txtGLZWDTotalArea.Name = "txtGLZWDTotalArea";
+            this.txtGLZWDTotalArea.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDTotalArea.TabIndex = 30;
+            this.txtGLZWDTotalArea.Text = "0";
+            this.txtGLZWDTotalArea.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // txtBoxGzWDSecFloorPeripheral
+            // txtGLZWDAP2
             // 
-            this.txtBoxGzWDSecFloorPeripheral.Enabled = false;
-            this.txtBoxGzWDSecFloorPeripheral.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzWDSecFloorPeripheral.Location = new System.Drawing.Point(209, 74);
-            this.txtBoxGzWDSecFloorPeripheral.Name = "txtBoxGzWDSecFloorPeripheral";
-            this.txtBoxGzWDSecFloorPeripheral.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzWDSecFloorPeripheral.TabIndex = 29;
-            this.txtBoxGzWDSecFloorPeripheral.Text = "0";
-            this.txtBoxGzWDSecFloorPeripheral.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP2.Enabled = false;
+            this.txtGLZWDAP2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDAP2.Location = new System.Drawing.Point(209, 74);
+            this.txtGLZWDAP2.Name = "txtGLZWDAP2";
+            this.txtGLZWDAP2.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDAP2.TabIndex = 29;
+            this.txtGLZWDAP2.Text = "0";
+            this.txtGLZWDAP2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP2.TextChanged += new System.EventHandler(this.txtGLZWDAP2_TextChanged);
             // 
-            // txtBoxGzFstFloorHeight
+            // txtGLZWDH1
             // 
-            this.txtBoxGzFstFloorHeight.Enabled = false;
-            this.txtBoxGzFstFloorHeight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzFstFloorHeight.Location = new System.Drawing.Point(209, 46);
-            this.txtBoxGzFstFloorHeight.Name = "txtBoxGzFstFloorHeight";
-            this.txtBoxGzFstFloorHeight.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzFstFloorHeight.TabIndex = 28;
-            this.txtBoxGzFstFloorHeight.Text = "0";
-            this.txtBoxGzFstFloorHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH1.Enabled = false;
+            this.txtGLZWDH1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDH1.Location = new System.Drawing.Point(209, 46);
+            this.txtGLZWDH1.Name = "txtGLZWDH1";
+            this.txtGLZWDH1.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDH1.TabIndex = 28;
+            this.txtGLZWDH1.Text = "0";
+            this.txtGLZWDH1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH1.TextChanged += new System.EventHandler(this.txtGLZWDH1_TextChanged);
             // 
-            // txtBoxGZFstFloorPeriPheral
+            // txtGLZWDAP1
             // 
-            this.txtBoxGZFstFloorPeriPheral.Enabled = false;
-            this.txtBoxGZFstFloorPeriPheral.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGZFstFloorPeriPheral.Location = new System.Drawing.Point(209, 18);
-            this.txtBoxGZFstFloorPeriPheral.Name = "txtBoxGZFstFloorPeriPheral";
-            this.txtBoxGZFstFloorPeriPheral.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGZFstFloorPeriPheral.TabIndex = 27;
-            this.txtBoxGZFstFloorPeriPheral.Text = "0";
-            this.txtBoxGZFstFloorPeriPheral.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP1.Enabled = false;
+            this.txtGLZWDAP1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDAP1.Location = new System.Drawing.Point(209, 18);
+            this.txtGLZWDAP1.Name = "txtGLZWDAP1";
+            this.txtGLZWDAP1.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDAP1.TabIndex = 27;
+            this.txtGLZWDAP1.Text = "0";
+            this.txtGLZWDAP1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP1.TextChanged += new System.EventHandler(this.txtGLZWDAP1_TextChanged);
             // 
-            // txtBoxGzforthFloorHeight
+            // txtGLZWDH4
             // 
-            this.txtBoxGzforthFloorHeight.Enabled = false;
-            this.txtBoxGzforthFloorHeight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzforthFloorHeight.Location = new System.Drawing.Point(209, 224);
-            this.txtBoxGzforthFloorHeight.Name = "txtBoxGzforthFloorHeight";
-            this.txtBoxGzforthFloorHeight.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzforthFloorHeight.TabIndex = 26;
-            this.txtBoxGzforthFloorHeight.Text = "0";
-            this.txtBoxGzforthFloorHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH4.Enabled = false;
+            this.txtGLZWDH4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDH4.Location = new System.Drawing.Point(209, 224);
+            this.txtGLZWDH4.Name = "txtGLZWDH4";
+            this.txtGLZWDH4.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDH4.TabIndex = 26;
+            this.txtGLZWDH4.Text = "0";
+            this.txtGLZWDH4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH4.TextChanged += new System.EventHandler(this.txtGLZWDH4_TextChanged);
             // 
-            // txtBoxForthFloorPeripheral
+            // txtGLZWDAP4
             // 
-            this.txtBoxForthFloorPeripheral.Enabled = false;
-            this.txtBoxForthFloorPeripheral.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxForthFloorPeripheral.Location = new System.Drawing.Point(209, 192);
-            this.txtBoxForthFloorPeripheral.Name = "txtBoxForthFloorPeripheral";
-            this.txtBoxForthFloorPeripheral.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxForthFloorPeripheral.TabIndex = 25;
-            this.txtBoxForthFloorPeripheral.Text = "0";
-            this.txtBoxForthFloorPeripheral.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP4.Enabled = false;
+            this.txtGLZWDAP4.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDAP4.Location = new System.Drawing.Point(209, 192);
+            this.txtGLZWDAP4.Name = "txtGLZWDAP4";
+            this.txtGLZWDAP4.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDAP4.TabIndex = 25;
+            this.txtGLZWDAP4.Text = "0";
+            this.txtGLZWDAP4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // txtBoxGzThrdFloorHeight
+            // txtGLZWDH3
             // 
-            this.txtBoxGzThrdFloorHeight.Enabled = false;
-            this.txtBoxGzThrdFloorHeight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzThrdFloorHeight.Location = new System.Drawing.Point(209, 161);
-            this.txtBoxGzThrdFloorHeight.Name = "txtBoxGzThrdFloorHeight";
-            this.txtBoxGzThrdFloorHeight.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzThrdFloorHeight.TabIndex = 24;
-            this.txtBoxGzThrdFloorHeight.Text = "0";
-            this.txtBoxGzThrdFloorHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH3.Enabled = false;
+            this.txtGLZWDH3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDH3.Location = new System.Drawing.Point(209, 161);
+            this.txtGLZWDH3.Name = "txtGLZWDH3";
+            this.txtGLZWDH3.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDH3.TabIndex = 24;
+            this.txtGLZWDH3.Text = "0";
+            this.txtGLZWDH3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH3.TextChanged += new System.EventHandler(this.txtGLZWDH3_TextChanged);
             // 
-            // txtBoxGzThrdFloorPeripheral
+            // txtGLZWDAP3
             // 
-            this.txtBoxGzThrdFloorPeripheral.Enabled = false;
-            this.txtBoxGzThrdFloorPeripheral.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzThrdFloorPeripheral.Location = new System.Drawing.Point(209, 132);
-            this.txtBoxGzThrdFloorPeripheral.Name = "txtBoxGzThrdFloorPeripheral";
-            this.txtBoxGzThrdFloorPeripheral.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzThrdFloorPeripheral.TabIndex = 23;
-            this.txtBoxGzThrdFloorPeripheral.Text = "0";
-            this.txtBoxGzThrdFloorPeripheral.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP3.Enabled = false;
+            this.txtGLZWDAP3.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDAP3.Location = new System.Drawing.Point(209, 132);
+            this.txtGLZWDAP3.Name = "txtGLZWDAP3";
+            this.txtGLZWDAP3.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDAP3.TabIndex = 23;
+            this.txtGLZWDAP3.Text = "0";
+            this.txtGLZWDAP3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDAP3.TextChanged += new System.EventHandler(this.txtGLZWDAP3_TextChanged);
             // 
-            // txtBoxGzSecFloorHeight
+            // txtGLZWDH2
             // 
-            this.txtBoxGzSecFloorHeight.Enabled = false;
-            this.txtBoxGzSecFloorHeight.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxGzSecFloorHeight.Location = new System.Drawing.Point(209, 104);
-            this.txtBoxGzSecFloorHeight.Name = "txtBoxGzSecFloorHeight";
-            this.txtBoxGzSecFloorHeight.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxGzSecFloorHeight.TabIndex = 22;
-            this.txtBoxGzSecFloorHeight.Text = "0";
-            this.txtBoxGzSecFloorHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH2.Enabled = false;
+            this.txtGLZWDH2.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGLZWDH2.Location = new System.Drawing.Point(209, 104);
+            this.txtGLZWDH2.Name = "txtGLZWDH2";
+            this.txtGLZWDH2.Size = new System.Drawing.Size(52, 22);
+            this.txtGLZWDH2.TabIndex = 22;
+            this.txtGLZWDH2.Text = "0";
+            this.txtGLZWDH2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGLZWDH2.TextChanged += new System.EventHandler(this.txtGLZWDH2_TextChanged);
             // 
             // lblGzforthFloorHeight
             // 
@@ -1029,6 +1026,7 @@
             this.txtBoxSPActualOpenings.Size = new System.Drawing.Size(67, 22);
             this.txtBoxSPActualOpenings.TabIndex = 32;
             this.txtBoxSPActualOpenings.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtBoxSPActualOpenings.TextChanged += new System.EventHandler(this.txtBoxSPActualOpenings_TextChanged);
             // 
             // txtBoxSPTotalWallArea
             // 
@@ -1173,35 +1171,34 @@
             // grpBoxGlazing
             // 
             this.grpBoxGlazing.Controls.Add(this.label1);
-            this.grpBoxGlazing.Controls.Add(this.txtBoxSMTotal);
-            this.grpBoxGlazing.Controls.Add(this.btnCalTotalArea);
-            this.grpBoxGlazing.Controls.Add(this.btnRightSelect);
+            this.grpBoxGlazing.Controls.Add(this.txtGASMTotal);
+            this.grpBoxGlazing.Controls.Add(this.btnGARightSelect);
             this.grpBoxGlazing.Controls.Add(this.lblFront);
-            this.grpBoxGlazing.Controls.Add(this.btnLeftSelect);
+            this.grpBoxGlazing.Controls.Add(this.btnGALeftSelect);
             this.grpBoxGlazing.Controls.Add(this.lblTotalGlazingWindowArea);
-            this.grpBoxGlazing.Controls.Add(this.btnRearSelect);
+            this.grpBoxGlazing.Controls.Add(this.btnGARearSelect);
             this.grpBoxGlazing.Controls.Add(this.lblRight);
-            this.grpBoxGlazing.Controls.Add(this.btnFrontSelect);
+            this.grpBoxGlazing.Controls.Add(this.btnGAFrontSelect);
             this.grpBoxGlazing.Controls.Add(this.lblFrontUnit);
-            this.grpBoxGlazing.Controls.Add(this.btnRightPlus);
+            this.grpBoxGlazing.Controls.Add(this.btnGARightPlus);
             this.grpBoxGlazing.Controls.Add(this.lblRearUnit);
-            this.grpBoxGlazing.Controls.Add(this.btnLeftPlus);
+            this.grpBoxGlazing.Controls.Add(this.btnGALeftPlus);
             this.grpBoxGlazing.Controls.Add(this.lblLeft);
-            this.grpBoxGlazing.Controls.Add(this.btnRearPlus);
+            this.grpBoxGlazing.Controls.Add(this.btnGARearPlus);
             this.grpBoxGlazing.Controls.Add(this.lblRightUnit);
-            this.grpBoxGlazing.Controls.Add(this.btnFrontPlus);
+            this.grpBoxGlazing.Controls.Add(this.btnGAFrontPlus);
             this.grpBoxGlazing.Controls.Add(this.lblLeftUnit);
-            this.grpBoxGlazing.Controls.Add(this.txtBoxRight);
+            this.grpBoxGlazing.Controls.Add(this.txtGARight);
             this.grpBoxGlazing.Controls.Add(this.lbltotalUnit);
-            this.grpBoxGlazing.Controls.Add(this.textBoxRear);
+            this.grpBoxGlazing.Controls.Add(this.txtGARear);
             this.grpBoxGlazing.Controls.Add(this.lblRear);
-            this.grpBoxGlazing.Controls.Add(this.txtBoxSFTotal);
-            this.grpBoxGlazing.Controls.Add(this.btnFrontMinus);
-            this.grpBoxGlazing.Controls.Add(this.txtBoxLeft);
-            this.grpBoxGlazing.Controls.Add(this.btnRearMinus);
-            this.grpBoxGlazing.Controls.Add(this.txtBoxFront);
-            this.grpBoxGlazing.Controls.Add(this.btnLeftMinus);
-            this.grpBoxGlazing.Controls.Add(this.btnRightMinus);
+            this.grpBoxGlazing.Controls.Add(this.txtGASFTotal);
+            this.grpBoxGlazing.Controls.Add(this.btnGAFrontMinus);
+            this.grpBoxGlazing.Controls.Add(this.txtGALeft);
+            this.grpBoxGlazing.Controls.Add(this.btnGARearMinus);
+            this.grpBoxGlazing.Controls.Add(this.txtGAFront);
+            this.grpBoxGlazing.Controls.Add(this.btnGALeftMinus);
+            this.grpBoxGlazing.Controls.Add(this.btnGARightMinus);
             this.grpBoxGlazing.Location = new System.Drawing.Point(394, 323);
             this.grpBoxGlazing.Name = "grpBoxGlazing";
             this.grpBoxGlazing.Size = new System.Drawing.Size(294, 246);
@@ -1220,41 +1217,29 @@
             this.label1.TabIndex = 54;
             this.label1.Text = "M2";
             // 
-            // txtBoxSMTotal
+            // txtGASMTotal
             // 
-            this.txtBoxSMTotal.Enabled = false;
-            this.txtBoxSMTotal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBoxSMTotal.Location = new System.Drawing.Point(79, 218);
-            this.txtBoxSMTotal.Name = "txtBoxSMTotal";
-            this.txtBoxSMTotal.Size = new System.Drawing.Size(52, 22);
-            this.txtBoxSMTotal.TabIndex = 53;
-            this.txtBoxSMTotal.Text = "0";
-            this.txtBoxSMTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtGASMTotal.Enabled = false;
+            this.txtGASMTotal.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGASMTotal.Location = new System.Drawing.Point(79, 218);
+            this.txtGASMTotal.Name = "txtGASMTotal";
+            this.txtGASMTotal.Size = new System.Drawing.Size(52, 22);
+            this.txtGASMTotal.TabIndex = 53;
+            this.txtGASMTotal.Text = "0";
+            this.txtGASMTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // btnCalTotalArea
+            // btnGASave
             // 
-            this.btnCalTotalArea.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalTotalArea.ForeColor = System.Drawing.Color.Gray;
-            this.btnCalTotalArea.Image = global::GlazingArea.Properties.Resources.Calculator;
-            this.btnCalTotalArea.Location = new System.Drawing.Point(174, 180);
-            this.btnCalTotalArea.Name = "btnCalTotalArea";
-            this.btnCalTotalArea.Size = new System.Drawing.Size(27, 23);
-            this.btnCalTotalArea.TabIndex = 52;
-            this.btnCalTotalArea.UseVisualStyleBackColor = true;
-            this.btnCalTotalArea.Click += new System.EventHandler(this.btnCalTotalArea_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSave.ForeColor = System.Drawing.Color.Gray;
-            this.btnSave.Location = new System.Drawing.Point(390, 575);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(110, 32);
-            this.btnSave.TabIndex = 33;
-            this.btnSave.Text = "SAVE";
-            this.btnSave.UseVisualStyleBackColor = true;
-            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            this.btnGASave.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGASave.ForeColor = System.Drawing.Color.Gray;
+            this.btnGASave.Location = new System.Drawing.Point(390, 575);
+            this.btnGASave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnGASave.Name = "btnGASave";
+            this.btnGASave.Size = new System.Drawing.Size(110, 32);
+            this.btnGASave.TabIndex = 33;
+            this.btnGASave.Text = "SAVE";
+            this.btnGASave.UseVisualStyleBackColor = true;
+            this.btnGASave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // comboBoxElevation
             // 
@@ -1285,14 +1270,14 @@
             this.ClientSize = new System.Drawing.Size(713, 685);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBoxElevation);
-            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.btnGASave);
             this.Controls.Add(this.grpBoxGlazing);
             this.Controls.Add(this.lblGlazing);
             this.Controls.Add(this.lblSpatial);
             this.Controls.Add(this.btndrawTable);
             this.Controls.Add(this.grpBoxSideElevation);
             this.Controls.Add(this.grpBoxPeripheralArea);
-            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.btnGAUpdate);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -1323,25 +1308,25 @@
         private System.Windows.Forms.Label lblLeftUnit;
         private System.Windows.Forms.Label lbltotalUnit;
         private System.Windows.Forms.Label lblTotalGlazingWindowArea;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnRightMinus;
-        private System.Windows.Forms.Button btnLeftMinus;
-        private System.Windows.Forms.Button btnRearMinus;
-        private System.Windows.Forms.Button btnFrontMinus;
-        private System.Windows.Forms.TextBox txtBoxRight;
-        private System.Windows.Forms.TextBox textBoxRear;
-        private System.Windows.Forms.TextBox txtBoxSFTotal;
-        private System.Windows.Forms.TextBox txtBoxLeft;
-        private System.Windows.Forms.TextBox txtBoxFront;
+        private System.Windows.Forms.Button btnGAUpdate;
+        private System.Windows.Forms.Button btnGARightMinus;
+        private System.Windows.Forms.Button btnGALeftMinus;
+        private System.Windows.Forms.Button btnGARearMinus;
+        private System.Windows.Forms.Button btnGAFrontMinus;
+        private System.Windows.Forms.TextBox txtGARight;
+        private System.Windows.Forms.TextBox txtGARear;
+        private System.Windows.Forms.TextBox txtGASFTotal;
+        private System.Windows.Forms.TextBox txtGALeft;
+        private System.Windows.Forms.TextBox txtGAFront;
         private System.Windows.Forms.GroupBox grpBoxPeripheralArea;
-        private System.Windows.Forms.Button btnGzFrstFlrPhSelect;
-        private System.Windows.Forms.Button btnGzForthFlrPhSelect;
-        private System.Windows.Forms.Button btnForthFloorHeightSelect;
-        private System.Windows.Forms.Button btnThirdFloorHeightSelect;
-        private System.Windows.Forms.Button btnGzThrdFlrPhSelect;
-        private System.Windows.Forms.Button btnScndFloorHeightSelect;
-        private System.Windows.Forms.Button btnGzScndFlrPhSelect;
-        private System.Windows.Forms.Button btnFrstFloorHeightSelect;
+        private System.Windows.Forms.Button btnGLZWDAP1;
+        private System.Windows.Forms.Button btnGLZWDAP4;
+        private System.Windows.Forms.Button btnGLZWDH4;
+        private System.Windows.Forms.Button btnGLZWDH3;
+        private System.Windows.Forms.Button btnGLZWDAP3;
+        private System.Windows.Forms.Button btnGLZWDH2;
+        private System.Windows.Forms.Button btnGLZWDAP2;
+        private System.Windows.Forms.Button btnGLZWDH1;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label19;
@@ -1353,16 +1338,16 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox txtBoxGzTotalSMArea;
-        private System.Windows.Forms.TextBox txtBoxGzTotalSFArea;
-        private System.Windows.Forms.TextBox txtBoxGzWDSecFloorPeripheral;
-        private System.Windows.Forms.TextBox txtBoxGzFstFloorHeight;
-        private System.Windows.Forms.TextBox txtBoxGZFstFloorPeriPheral;
-        private System.Windows.Forms.TextBox txtBoxGzforthFloorHeight;
-        private System.Windows.Forms.TextBox txtBoxForthFloorPeripheral;
-        private System.Windows.Forms.TextBox txtBoxGzThrdFloorHeight;
-        private System.Windows.Forms.TextBox txtBoxGzThrdFloorPeripheral;
-        private System.Windows.Forms.TextBox txtBoxGzSecFloorHeight;
+        private System.Windows.Forms.TextBox txtGLZWDTotalSMArea;
+        private System.Windows.Forms.TextBox txtGLZWDTotalArea;
+        private System.Windows.Forms.TextBox txtGLZWDAP2;
+        private System.Windows.Forms.TextBox txtGLZWDH1;
+        private System.Windows.Forms.TextBox txtGLZWDAP1;
+        private System.Windows.Forms.TextBox txtGLZWDH4;
+        private System.Windows.Forms.TextBox txtGLZWDAP4;
+        private System.Windows.Forms.TextBox txtGLZWDH3;
+        private System.Windows.Forms.TextBox txtGLZWDAP3;
+        private System.Windows.Forms.TextBox txtGLZWDH2;
         private System.Windows.Forms.Label lblGzforthFloorHeight;
         private System.Windows.Forms.Label lblBoxGzThrdFloorHeight;
         private System.Windows.Forms.Label lblGZforthFloorPeriPheral;
@@ -1389,23 +1374,21 @@
         private System.Windows.Forms.Label lblSPLimitingDistance;
         private System.Windows.Forms.Label lblSpAllowableOpngs;
         private System.Windows.Forms.Label lblSPAllowablePct;
-        private System.Windows.Forms.Button btnRightSelect;
-        private System.Windows.Forms.Button btnLeftSelect;
-        private System.Windows.Forms.Button btnRearSelect;
-        private System.Windows.Forms.Button btnFrontSelect;
-        private System.Windows.Forms.Button btnRightPlus;
-        private System.Windows.Forms.Button btnLeftPlus;
-        private System.Windows.Forms.Button btnRearPlus;
-        private System.Windows.Forms.Button btnFrontPlus;
+        private System.Windows.Forms.Button btnGARightSelect;
+        private System.Windows.Forms.Button btnGALeftSelect;
+        private System.Windows.Forms.Button btnGARearSelect;
+        private System.Windows.Forms.Button btnGAFrontSelect;
+        private System.Windows.Forms.Button btnGARightPlus;
+        private System.Windows.Forms.Button btnGALeftPlus;
+        private System.Windows.Forms.Button btnGARearPlus;
+        private System.Windows.Forms.Button btnGAFrontPlus;
         private System.Windows.Forms.Button btndrawTable;
         private System.Windows.Forms.Label lblSpatial;
         private System.Windows.Forms.Label lblGlazing;
         private System.Windows.Forms.GroupBox grpBoxGlazing;
-        private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Button btnGzCalTotalArea;
-        private System.Windows.Forms.Button btnCalTotalArea;
+        private System.Windows.Forms.Button btnGASave;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtBoxSMTotal;
+        private System.Windows.Forms.TextBox txtGASMTotal;
         private System.Windows.Forms.ComboBox comboBoxElevation;
         private System.Windows.Forms.Label label2;
     }

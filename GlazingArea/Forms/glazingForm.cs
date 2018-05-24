@@ -34,10 +34,15 @@ namespace GlazingArea.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            JPXMLTools xmltools = new JPXMLTools();
-            xmltools.Add(new JPXMlTool() {LayerName= "1 ALL-Elevation Medium" });
+            qrndsgnXmlTool xmltools = new qrndsgnXmlTool();
+
+            //TODO:VLAD CHANGED
+            //TODO:VLAD CAN"T BE LAYER NAME HARDCODED
+            //xmltools.Add(new qrndsgnXmlTool() { LayerName = "1 ALL-Elevation Medium" });
+            xmltools.Add("1 ALL-Elevation Medium" );
+            //TODO:VLAD CAN"T BE FILENAME HARDCODED
             xmltools.WtitetoXml(@"C: \Users\JyotiP\Documents\Visual Studio 2015\Projects\GlazingArea\GlazingArea\bin\Debug\Config\Layer.xml");
-            JPXMLTools myxmltools = JPXMLTools.ReadXml(@"C: \Users\JyotiP\Documents\Visual Studio 2015\Projects\GlazingArea\GlazingArea\bin\Debug\Config\Layer.xml");
+            qrndsgnXmlTool myxmltools = qrndsgnXmlTool.ReadXml(@"C: \Users\JyotiP\Documents\Visual Studio 2015\Projects\GlazingArea\GlazingArea\bin\Debug\Config\Layer.xml");
 
             //GlazingData gdata = new GlazingData();
             //gdata.WriteData();

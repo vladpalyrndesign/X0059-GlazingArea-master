@@ -285,7 +285,6 @@ namespace qrndGlazingArea
             }
             return area;
         }
-
         public List<WindowArea> GetMSpaceWindowsBlock()
         {
             Editor ed = Application.DocumentManager.MdiActiveDocument.Editor;
@@ -1602,5 +1601,7 @@ namespace qrndGlazingArea
             }
             return layerId;
         }
+
+    
     }
 }

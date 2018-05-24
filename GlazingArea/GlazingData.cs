@@ -19,7 +19,7 @@ namespace GlazingArea
             myLayer.layerName = "1 ALL-Elevation Medium";
             System.Xml.Serialization.XmlSerializer writer =
                 new System.Xml.Serialization.XmlSerializer(typeof(Layer));
-
+            //TODO:VLAD changed it
             var path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "//SerializationOverview.xml";
             System.IO.FileStream file = System.IO.File.Create(path);
 
