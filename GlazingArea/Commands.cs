@@ -9,8 +9,8 @@ namespace qrndGlazingArea
 {
     public class Commands
     {
+        //
         [CommandMethod("qrnGlazingArea",CommandFlags.Modal)]
-        
         public static void ShowGlazingAreaForm()
         {
            // GlazingArea.Forms.glazingForm frm = new GlazingArea.Forms.glazingForm(); //door form
